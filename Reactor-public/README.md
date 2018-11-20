@@ -8,7 +8,9 @@
 ![Node](https://img.shields.io/badge/NODE-v10.12.0-blue.svg?style=plastic)
 </h1>
 
-Welcome on the project Reactor.
+Welcome on the Reactor Project
+
+This is a node.js/React.js project, aimed to showcase a fully DOM rendered, physics based rogue-like serious game.
 
 ## Requirements
 
