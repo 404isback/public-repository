@@ -124,7 +124,7 @@ This project is still WIP.
 ## Current Project Team
 
 - Fabien C.
-- Pierro Imhoff
+- Pierre Imhoff
 - Raphaël Picard
 - Luna O. V.
 
