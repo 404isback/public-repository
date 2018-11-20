@@ -1,5 +1,4 @@
 <h1 align='center'>
-  <img src='src/images/logo-v1.0-fullsize.png' align='center' height='60' alt='Reactor Logo' aria-label='reactor.logo' />
   React chat
 
 ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg?style=plastic)
