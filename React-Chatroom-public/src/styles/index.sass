@@ -1,0 +1,32 @@
+@import vars
+@import reset
+/*
+ * Charte :
+ * Fond = `#2e5849`
+ * Fond Input = `#1c382f`
+ * Bordure Input = `#183129`
+ * Ombre interne Input = `25px` `rgba(0,0,0,.1)`
+ * Ombre interne Input Focus = `25px` `rgba(0,0,0,.5)`
+ * Texte Input = `#fff`
+ * Placeholder Input = `rgba(255, 255, 255, .5)`
+ * Fond Tâche = `#eee`
+ * Bordure tâche = `#ccc`
+ */
+
+body
+	background-color: $app-bg
+	color: $text-color
+	font-family: $roboto
+
+::-webkit-scrollbar
+  width: 5px
+  border: 5px solid #333
+  border-radius: 0 5px 5px 0
+
+::-webkit-scrollbar-track
+  border-radius: 0
+  background: transparent
+
+::-webkit-scrollbar-thumb
+  border-radius: 5px
+  background: #111

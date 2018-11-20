@@ -1,0 +1,101 @@
+@import src/styles/vars
+
+@keyframes slideInFromRight
+  0% 
+    width: 0px
+  100% 
+    width: 100%
+
+@keyframes slideIn 
+  0%
+    margin-left: 200%
+  100%
+    margin-left: 0%
+
+@keyframes appear
+  0% 
+    opacity: 0
+  100% 
+    opacity: 1 
+
+.enabler 
+  grid-column: 2
+  justify-self: flex-end
+  height: 100%
+  padding: .5em
+  display: grid
+  &-button
+    grid-column: 1
+    border: none
+    background: transparent
+    font-size: 1.5em
+    color: white
+    &-open
+      transition: all 1s
+      border: none
+      background: transparent
+      font-size: 1.5em
+      color: white
+      transform: rotate(45deg)
+      animation: 1.5s 0s 1 slideIn
+.hidden
+  display: none
+  transition: all 1.5s
+
+.user
+  height: 5vh
+  width: 80vw
+  margin: 1em auto
+  display: grid
+
+  &-id
+    grid-column: 1
+    justify-self: flex-start
+    display: flex
+    height: 100%
+    font-size: 1.2em
+
+    &-intro
+      align-self: center
+    &-user
+      color: teal
+      align-self: center
+
+  &-form
+    animation: 1s ease 0s 1 slideInFromRight
+    grid-column: 2
+    justify-self: flex-end
+    height: 100%
+    padding: .5em
+    background: #333
+    border-radius: 5px
+ 
+
+    &-input
+      animation: 2s 0s 1 appear
+      position: relative
+      display: inline-block
+      width: 80%
+      height: 100%
+      border: none
+      color: white
+      padding-left: 2em
+      border-radius: 5px
+      background: #222
+      &:focus
+        background: #333
+
+    &-button
+      animation: 2s 0s 1 appear
+      display: inline-block
+      position: relative
+      float: right
+      width: 18%
+      height: 100%
+      border: none
+      color: white
+      text-align: center
+      border-radius: 5px
+      background: #222
+      &:hover
+        background: teal
