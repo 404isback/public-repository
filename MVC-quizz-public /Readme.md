@@ -14,4 +14,4 @@ This a Quizz social application, written in PHP7.
 To test this project, some install are required:
 
 * [PHPmyAdmin](https://www.phpmyadmin.net/)
-* [Database](Test Database in local files)
+* [Database] => Test Database in local files
